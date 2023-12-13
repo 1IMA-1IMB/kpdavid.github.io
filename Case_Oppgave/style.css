@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .p {
+    display: flex;
+    text-align: left; 
+    font-size: 5em;
+    
+ }
+
+
+.image-text {
+    width: 50%;
+}
+
+.image-container {
+    width: 80%; 
+    height: auto; 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+
+  .image-container img {
+    width: 60%;
+  }
+  
+.image-container img {
+    max-width: 100%;
+    height: auto;
+
+}
