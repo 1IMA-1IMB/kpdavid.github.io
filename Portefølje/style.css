@@ -39,6 +39,14 @@ section {
     padding: 2em;
 }
 
+#om-meg, #kontakt {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
 footer {
     background-color: #333;
     color: #fff;
